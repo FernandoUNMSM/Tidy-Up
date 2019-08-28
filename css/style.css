@@ -1,0 +1,558 @@
+/*Esta hermosa pagina esta hecha a mano*/
+body {
+  margin: 0px;
+  font-family: 'allerta', sans-serif;
+  width: 100%;
+}
+
+/* Portada */
+
+.portada {
+  height: 503px;
+  background-image: url(../images/portada.jpg);
+  background-repeat: no-repeat; 
+  background-size: 100%; 
+}
+.logotipo {
+  padding: 30px 0px 0px 40px;
+  display: inline-block;
+}
+.logotipo img {
+  width: 300px;
+}
+.menu {
+  display: inline-block;
+  position: absolute;
+  margin-top: 30px; 
+}
+.menu ul {
+  padding-left: 0px;
+  padding-right: 15px;
+}
+.bloque-menu {
+  display: inline-block;
+}
+.menu li {
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 90px;
+}
+.portada a {
+  color: white;
+  text-decoration: none;
+}
+.portada a:hover {
+  color: gray;
+}
+.menu-central {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-top: -35px;
+}
+.menu-central button {
+  font-size: 30px;
+  border: 0;
+  padding: 15px 40px 15px 40px;
+  background: #41C1BB;
+  cursor: pointer;
+}
+.menu-central button:hover {
+  background: white;
+  border: 4px solid #41C1BB;
+}
+.menu-central button:first-child {
+  margin-right: 40px;
+}
+.menu-central button:last-child {
+  margin-left: 40px;
+}
+.menu-central h1:hover {
+  color: gray;
+}
+/* Confianza */
+  /*Texto inicio*/
+.texto-confianza {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;  
+} 
+.texto-confianza h2 {
+  margin: 30px 0 30px 0;
+}
+  /*Texto fin*/
+  /*Iconos inicio*/
+.icono {
+  display: inline-block;
+  padding: 35px;
+  border-radius: 40%;
+}
+.fa {
+  background: #41C1BB;
+}
+.fa:hover {
+  
+}
+.fe {
+  background: #DE15C8;
+}
+.fi {
+  background: #9026D9;
+}
+.icono:hover {
+  background: #E6C230;
+}
+.bloque-iconos {
+  margin-top: 20px; 
+  text-align: center;
+  width: 32.3333%;
+  display: inline-block;
+}
+#icono:last-child {
+  position: absolute;
+  margin-left: -4px;
+}
+.bloque-iconos p {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;  
+  width: 350px; 
+}
+  /*Iconos fin*/
+
+/*Servicios*/
+
+.texto-servicios {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%; 
+}
+
+.tipo-de-servicio {
+  display: inline-block;
+  border: 0.6px solid gray;
+  margin-top: 30px;
+}
+.t {
+  margin-right: 30px;
+  margin-left: 30px; 
+}
+.u {
+  margin-left: 25px;
+}
+.p {
+  margin-right: 25px;
+}
+.bloque-servicios {
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+.servicios button {
+  margin-bottom: 20px; 
+  font-size: 20px;
+  border: 0;
+  padding: 10px 60px 10px 60px;
+  background: #41C1BB;
+  cursor: pointer;
+  color: black;
+}
+
+.servicios button:hover {
+  background: white;
+  border: 2px solid #41C1BB;
+}
+
+/*Por que funciona*/
+
+.funciona {
+  text-align: center;
+}
+.por {
+  width: 320px;
+  text-align: left;
+  margin-bottom: 30px; 
+  display: inline-block;
+}
+.funciona-titulos {
+  display: block;
+}
+.j {
+  margin-left: 30px;
+}
+.k {
+  margin-right: 30px; 
+}
+.por img {
+  display: inline-block;
+}
+.por h4 {
+  display: inline-block;
+  margin: 10px ;
+  color: #41C1BB;
+  position: absolute;
+}
+.por h4:hover {
+  color: green;
+}
+.productos h2 {
+  visibility: hidden;
+  margin: -25px;
+}
+.satisfaccion h2 {
+  visibility: hidden;
+  margin: 38px;
+}
+.pago h2 {
+  visibility: hidden;
+  margin: 0px;
+}
+.pa {
+  margin-left: 70px;
+  margin-right: 70px; 
+}
+/*Nosotros*/
+
+.nosotros {
+  height: 400px;
+}
+.nosotros h1 {
+  text-align: center;
+}
+.nosotros-texto {
+  width: 40%;
+  margin-left: 40px;
+  display: inline-block;
+  margin-left: 8%; 
+}
+.san_marcos {
+  display: inline-block;
+  position: absolute;
+  margin-left: 8%;
+}
+.san_marcos img {
+  border-radius: 35px; 
+  width: 500px;
+}
+/*footer*/
+
+.pie-de-pagina {
+  background: #55544F;
+  color: white;
+  height: 310px;
+}
+.logo {
+  margin-left: 70px;
+  margin-right: 70px;
+  display: inline-block;
+}
+.logo p {
+  visibility: hidden;
+}
+.bloque-contactos {
+  display: block;
+  margin-top: 20px;
+}
+.contacto img {
+  display: inline-block;
+}
+.contacto p {
+  display: inline;
+  margin: 9px;
+  position: absolute;
+}
+.mi {
+  font-size: 14px;
+}
+.foot {
+  display: inline-block;
+  width: 25%;
+}
+.derechos {
+  background: #42423F;
+}
+.mapa-del-sitio li {
+  margin-bottom: 8px;
+}
+.mapa-del-sitio a {
+  color: white;
+  text-decoration: none;
+}
+.mapa-del-sitio a:hover {
+  color: gray;
+}
+#twitter {
+  margin-left: 30px;
+}
+.redes {
+  width: 250px;
+}
+.redes p {
+  visibility: hidden;
+  margin-top: 62px; 
+}
+.derechos {
+  padding-top: 20px;
+  padding-bottom: 20px;  
+}
+.derechos p:first-child {
+  margin-left: 30px;
+  display: inline-block;
+}
+#sanmarquino {
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  width: 60%;
+}
+
+/*Media Querys*/
+@media screen and (max-width: 1280px)
+{
+  .logo {
+    margin-left: 20px;
+    margin-right: 40px;
+    transition: 0.3s; 
+  }
+}
+@media screen and (max-width: 1230px) {
+  .san_marcos img {
+    width: 450px;
+    transition: 0.3s;
+  }
+  #inicio {
+    padding-left: 0; 
+    transition: 0.3s; 
+  }
+  .logo {
+    margin-left: 40px;
+    margin-right: 50px;
+    transition: 0.3s; 
+  }
+  .contacto {
+    margin-right: 20px;
+    transition: 0.3s; 
+  }
+  .mapa-del-sitio {
+    width: 220px;
+    transition: 0.3s; 
+  }
+  .redes {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 1188px) {
+  /*Servicios*/
+  .menu li {
+    padding-left: 50px; 
+    transition: 0.2s;
+  }
+  .tipo-de-servicio {
+    margin: 0;
+  }
+  .co {
+    margin-right: 60px;
+    margin-top: 30px; 
+  }
+  .ca {
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-top: 30px; 
+  }
+
+  /*¿Por que funciona?*/
+  .bloque-funciona {
+    width: 100%;
+    padding-top: 30px;  
+  }
+  .l {
+    margin-left: 110px;
+    margin-right: 120px;
+  }
+  .m {
+    margin-right: 60px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .bloque-iconos p {
+    width: 290px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .san_marcos img {
+    width: 400px;
+  }
+  .logo {
+    margin-left: 12px;
+    margin-right: 20px;
+  }
+  .mapa-del-sitio {
+    margin-left: 10px;
+  }
+  .redes {
+    width: 180px;
+  }
+
+  #twitter {
+    margin-left: 4px;
+  }
+  .redes p {
+    margin-top: 48px;
+    font-size: 0px;
+  } 
+  .redes img {
+    width: 70px;
+  }
+  #sanmarquino {
+    width: 55%;
+    transition: 0.2s;
+  }
+}
+@media screen and (max-width: 800px) {
+  .portada {
+    height: 387px;
+  }
+  .logotipo img {
+    width: 200px;
+  }
+  .menu-central h1 {
+    font-size: 50px;
+  }
+  .menu-central button {
+    font-size: 20px;
+  }
+  .bloque-iconos p{
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+  }  
+  .tipo-de-servicio {
+    margin: 10px;
+  }
+  .por {
+    margin: 10px 30px 10px 30px;
+  }
+  .nosotros {
+    height: 300px;
+    transition: 0.3s;
+  }
+  .san_marcos img {
+    width: 300px;
+  }
+  .pie-de-pagina {
+    height: 510px;
+  }
+  .logo {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .foot {
+    margin-left: 90px;
+    margin-right: 40px;
+  }
+  .mapa-del-sitio {
+    margin-bottom: 10px;
+  }
+  #sanmarquino {
+    width: 48%;
+  }
+  #twitter {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /*Portada*/
+  .portada {
+    height: 750px;
+    background-size: 380%;
+    background-position-x: -550px;
+  }
+  .portada figure {
+    padding: 0;
+    margin-top: 0;
+    display: block; 
+    text-align: center;
+  }
+  .logotipo img{
+    margin-top: 50px;
+    width: 300px;
+  } 
+  .menu {
+    display: block;
+    position: static;
+    text-align: center;
+  }
+  .menu ul {
+    padding: 0;
+  }
+  .menu li {
+    font-size: 25px;
+    padding: 0;
+    display: block;
+  }
+  .menu-central h1 {
+    margin-top: 60px;
+  }
+  .menu-central {
+    font-size: 25px;
+  }
+  .menu-central button:last-child {
+    margin-top: 20px;
+  }
+  /*Confianza*/
+  .bloque-iconos {
+    display: block;
+    width: auto;
+    text-align: center;
+  }
+  .confianza p {
+    width: 70%;
+    margin-left: 60px; 
+  } 
+  .texto-confianza p {
+    margin-left: 40px;
+  }
+  /*Nosotros*/
+  .nosotros {
+    height: 450px;
+  }
+  .nosotros-texto {
+    display: block;
+    width: auto;
+  }
+  .san_marcos {
+    display: block;
+    position: static;
+  }
+  .san_marcos img {
+    width: 350px;
+  }
+  /*Footer*/
+  .pie-de-pagina {
+    height: 1000px;
+  }
+  .logo {
+    display: block;
+    text-align: center;
+    padding-top: 40px; 
+  }
+  .foot {
+    display: block;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .redes {
+    margin-bottom: 0;
+  }
+  .derechos {
+    height: 100px;
+  }
+  .derechos p:first-child {
+    display: block;
+  }
+  #sanmarquino {
+    width: auto;
+    display: block;
+  }
+}
